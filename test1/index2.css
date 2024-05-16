@@ -3,9 +3,6 @@
     
 } */
 
-/* * {
-    전체에 적용
-} */
 
 /* 폰트 */
 @font-face{
@@ -18,38 +15,28 @@
     src:url(MinSans-Light.otf)
 }
 
-@font-face {
-    font-family: Gmarket;
-    src: url(GmarketSansTTFLight.ttf);
+@font-face{
+    font-family: MinSans-thin;
+    src:url(MinSans-Thin.otf)
 }
 
-@font-face {
-    font-family: GmarketS;
-    src: url(GmarketSansTTFMedium.ttf);
-}
 /* 폰트 */
 
 
 /* 바디 */
 body {
     margin: 0; padding: 0;
-}
-
-.maincontainer {
-    position: absolute; 
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+    height: 2056px;
 }
 
 /* 라인 */
 .hline {
-    position: fixed;
+    position: absolute;
     width: 1580px;
     border-top-style: solid;
     color: black;
     margin-left: 55px;
+
 }
 
 .thick {
@@ -62,8 +49,19 @@ body {
 
 img{
     position: fixed;
-    /* width: 1920px;
-    height: 1080px; */
+}
+
+.dgd {
+    position: absolute;
+    font-family: MinSans-thin;
+    font-size: 25px;
+    margin-top: 1934px;
+    margin-left: 67px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
 /* 바디 */
 
@@ -73,37 +71,35 @@ img{
     position: absolute;
     display: flex;
     white-space: nowrap; /* 단락내려가는거 방지해주는 친구 */
-    width: 1600px;
+    width: 1580px;
 }
 
 .container p {
     margin-top: 66px;
     text-align: center;
     font-size: 25px;
+    position: absolute;
 }
 
 .container p:nth-of-type(1) {
     font-family: MinSans-Bold;
     margin-left: 136px;
     font-size: 27px;
-    position: fixed;
 }
 
 .container p:nth-of-type(2) {
     font-family: MinSans-light;
     margin-left: 790px;
     font-size: 25px;
-    position: fixed;
 }
 
 .container p:nth-of-type(3) {
     font-family: MinSans-light;
     margin-left: 1448px;
     font-size: 25px;
-    position: fixed;
 }
 
-.yh:link {
+/*.yh:link {
     color: #000000;
     background-color: transparent;
     text-decoration: none;
@@ -119,7 +115,7 @@ img{
     color: #2c7bf2;
     background-color: transparent;
     text-decoration: none;
-}
+} */
 
 .k1:link {
     color: black;
@@ -141,25 +137,7 @@ img{
 /* 상단바 */
 
 
-/* 안녕하세요 디자이너 김예현입니다. */
-h1 {
-    position: fixed;
-    z-index: 1;
-    font-family: Gmarket;
-    font-size: 70px;
-    margin-top: 363px;
-    margin-left: 478px;
-    text-align: center;
-}
-
-.hightlight {
-    font-family: GmarketS;
-    font-size: 70px;
-    color: #3F82E6
-}
-/* 안녕하세요 디자이너 김예현입니다. */
-
-/* 하단바 */
+/* 중간바 */
 .container2 {
     position: absolute;
     display: flex;
@@ -167,28 +145,29 @@ h1 {
 }
 
 .container2 p {
-    margin-top: 802px;
+    margin-top: 355px;
     text-align: center;
     font-family: MinSans-light;
     font-size: 25px;
 }
 
 .container2 p:nth-of-type(1) {
-    margin-left: 374px;
+    margin-left: 280px;
 }
 
 .container2 p:nth-of-type(2) {
-    margin-left: 384px;
+    margin-left: 470px;
 }
 
 .container2 p:nth-of-type(3) {
-    margin-left: 374px;
+    margin-left: 450px;
 }
 
 .work:link {
     color: black;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: underline;
+    font-family: MinSans-Bold;
 }
 
 .work:visited {
@@ -200,9 +179,8 @@ h1 {
 .work:hover {
     color: #000000;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: MinSans-Bold;
-    font-size: 25px;
 }
 
 .like:link {
@@ -220,9 +198,8 @@ h1 {
 .like:hover {
     color: #000000;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: MinSans-Bold;
-    font-size: 25px;
 }
 
 .about:link {
@@ -240,8 +217,73 @@ h1 {
 .about:hover {
     color: #000000;
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: MinSans-Bold;
-    font-size: 25px;
 }
-/* 하단바 */
+/* 중간바 */
+
+
+/* 사진 */
+#mx {
+    position: absolute;
+    margin-left: 145px;
+    border: 1px solid black;
+    margin-top: 436px;
+}
+
+#index {
+    position: absolute;
+    margin-left: 635px;
+    border: 1px solid black;
+    margin-top: 436px;
+}
+
+#wn {
+    position: absolute;
+    margin-left: 1131px;
+    border: 1px solid black;
+    margin-top: 436px;
+}
+
+#aqua {
+    position: absolute;
+    margin-left: 145px;
+    border: 1px solid black;
+    margin-top: 930px;
+}
+
+#cd {
+    position: absolute;
+    margin-left: 635px;
+    border: 1px solid black;
+    margin-top: 930px;
+}
+
+#melon {
+    position: absolute;
+    margin-left: 1131px;
+    border: 1px solid black;
+    margin-top: 930px;
+}
+
+#cube {
+    position: absolute;
+    margin-left: 145px;
+    border: 1px solid black;
+    margin-top: 1425px;
+}
+
+#wine {
+    position: absolute;
+    margin-left: 635px;
+    border: 1px solid black;
+    margin-top: 1425px;
+}
+
+#cup {
+    position: absolute;
+    margin-left: 1131px;
+    border: 1px solid black;
+    margin-top: 1425px;
+}
+/* 사진 */
