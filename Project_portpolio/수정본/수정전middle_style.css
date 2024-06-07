@@ -1,0 +1,250 @@
+/*{
+    border: 2px solid #ff0000;
+    
+} */
+
+/* * {
+    전체에 적용
+} */
+
+/* 폰트 */
+@font-face{
+    font-family: MinSans-Bold;
+    src:url(MinSans-Bold.otf)
+}
+
+@font-face{
+    font-family: MinSans-light;
+    src:url(MinSans-Light.otf)
+}
+
+@font-face {
+    font-family: Gmarket;
+    src: url(GmarketSansTTFLight.ttf);
+}
+
+@font-face {
+    font-family: GmarketS;
+    src: url(GmarketSansTTFMedium.ttf);
+}
+/* 폰트 */
+
+
+
+
+
+/* 바디 */
+body {
+    margin: 0; padding: 0;
+}
+
+.maincontainer {
+    position: absolute; 
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* 라인 */
+.hline {
+    position: fixed;
+    width: 1580px;
+    border-top-style: solid;
+    color: black;
+    margin-left: 55px;
+}
+
+.thick {
+    border-top-width: 4px;
+}
+
+.thin {
+    border-top-width: 1.6px;
+}
+
+img{
+    position: fixed;
+    /* width: 1920px;
+    height: 1080px; */
+}
+/* 바디 */
+
+
+/* 상단바 */
+.container{
+    position: absolute;
+    display: flex;
+    white-space: nowrap; /* 단락내려가는거 방지해주는 친구 */
+    width: 1600px;
+}
+
+.container p {
+    margin-top: 66px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container p:nth-of-type(1) {
+    font-family: MinSans-Bold;
+    margin-left: 136px;
+    font-size: 27px;
+    position: fixed;
+}
+
+.container p:nth-of-type(2) {
+    font-family: MinSans-light;
+    margin-left: 790px;
+    font-size: 25px;
+    position: fixed;
+}
+
+.container p:nth-of-type(3) {
+    font-family: MinSans-light;
+    margin-left: 1448px;
+    font-size: 25px;
+    position: fixed;
+}
+
+.yh:link {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.yh:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.yh:hover {
+    color: #2c7bf2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.k1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.k1:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.k1:hover {
+    color: #2c7bf2;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* 상단바 */
+
+
+/* 안녕하세요 디자이너 김예현입니다. */
+h1 {
+    position: fixed;
+    z-index: 1;
+    font-family: Gmarket;
+    font-size: 70px;
+    margin-top: 363px;
+    margin-left: 478px;
+    text-align: center;
+}
+
+.hightlight {
+    font-family: GmarketS;
+    font-size: 70px;
+    color: #3F82E6
+}
+/* 안녕하세요 디자이너 김예현입니다. */
+
+/* 하단바 */
+.container2 {
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+}
+
+.container2 p {
+    margin-top: 802px;
+    text-align: center;
+    font-family: MinSans-light;
+    font-size: 25px;
+}
+
+.container2 p:nth-of-type(1) {
+    margin-left: 374px;
+}
+
+.container2 p:nth-of-type(2) {
+    margin-left: 384px;
+}
+
+.container2 p:nth-of-type(3) {
+    margin-left: 374px;
+}
+
+.work:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.work:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.work:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: MinSans-Bold;
+    font-size: 25px;
+}
+
+.like:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.like:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.like:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: MinSans-Bold;
+    font-size: 25px;
+}
+
+.about:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:visited {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.about:hover {
+    color: #000000;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: MinSans-Bold;
+    font-size: 25px;
+}
+/* 하단바 */

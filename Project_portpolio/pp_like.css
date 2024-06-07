@@ -1,0 +1,189 @@
+/*{
+    border: 1px solid #ff0000;
+    
+}*/
+
+
+/* 폰트 */
+@font-face{
+    font-family: MinSans-Bold;
+    src:url(font/MinSans-Bold.otf)
+}
+
+@font-face{
+    font-family: MinSans-light;
+    src:url(font/MinSans-Light.otf)
+}
+
+@font-face{
+    font-family: MinSans-thin;
+    src:url(font/MinSans-Thin.otf)
+}
+
+/* 폰트 */
+
+
+/* 기본 태그 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("file/tttt.png");
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+/* 라인 */
+.hline {
+    position: absolute;
+    width: 100%;
+    border-top-style: solid;
+    color: black;
+    /*margin-left: 55px;*/
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.thick {
+    border-top-width: 4px;
+}
+
+.thin {
+    border-top-width: 1.6px;
+}
+
+
+
+/* 상단바 */
+#header{
+    position: fixed;
+    width: 95%;
+    height: 65px;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /* 단락내려가는거 방지해주는 친구 */
+    gap: 500px;
+    z-index: 5;
+    /*background-color: aliceblue;*/
+
+}
+#header p {
+    margin-top: 2px;
+}
+
+#header p:nth-of-type(1) {
+    font-family: MinSans-Bold;
+    font-size: 25px;
+}
+#header p:nth-of-type(2) {
+    font-family: MinSans-light;
+    font-size: 23px;
+}
+#header p:nth-of-type(3) {
+    font-family: MinSans-light;
+    font-size: 23px;
+}
+/* 상단바 */
+
+
+/* 중간바 */
+#middle {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 65px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /* 단락내려가는거 방지해주는 친구 */
+    gap: 400px;
+}
+
+#middle a {
+    font-family: MinSans-light;
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+#middle a:hover {
+    text-decoration: underline;
+    font-family: MinSans-Bold;
+}
+
+.work {
+    text-decoration: underline;
+    font-family: MinSans-Bold; /*안됨ㅡㅡ*/
+}
+/* 중간바 */
+
+
+/* 하단바 */
+#footer {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    height: 70px;
+    /*background-color: antiquewhite;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap; /* 단락내려가는거 방지해주는 친구 */
+    gap: 400px;
+    z-index: 2000;
+}
+
+#footer a {
+    font-family: MinSans-light;
+    font-size: 23px;
+    margin-top: 30px;
+}
+#footer a:hover {
+    text-decoration: underline;
+    font-family: MinSans-Bold;
+}
+
+.dgd {
+    position: absolute;
+    font-family: MinSans-thin;
+    font-size: 25px;
+    margin-top: 0px;
+    left: 30px;
+}
+
+.empty {
+    position: absolute;
+    width: 380px;
+    height: 20px;
+    left: 40px;
+    margin-top: 70px;
+    /*background-color: #2c7bf2;*/
+}
+/* 하단바 */
+
+
+/* 인스타 호버*/
+.yh:hover {
+    color: #2c7bf2;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#section1 {
+    position: relative;
+    margin-top: 830px;
+    background-color: #2c7bf2;
+}

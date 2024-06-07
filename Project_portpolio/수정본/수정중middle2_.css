@@ -1,0 +1,55 @@
+/*{
+    border: 2px solid #ff0000;
+    
+} */
+
+
+/* 폰트 */
+@font-face{
+    font-family: MinSans-Bold;
+    src:url(MinSans-Bold.otf)
+}
+
+@font-face{
+    font-family: MinSans-light;
+    src:url(MinSans-Light.otf)
+}
+
+@font-face{
+    font-family: MinSans-thin;
+    src:url(MinSans-Thin.otf)
+}
+
+/* 폰트 */
+
+
+/* 기본 태그 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("tttt.png");
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* 라인 */
+.hline {
+    position: absolute;
+    width: 100%;
+    border-top-style: solid;
+    color: black;
+    /*margin-left: 55px;*/
+    left: 50% ;
+    transform: translateX(-50%);
+}
+.thick {
+    border-top-width: 4px;
+}
+.thin {
+    border-top-width: 1.6px;
+}
